@@ -1,0 +1,148 @@
+
+/*  Header Styles  (Start) */
+header 
+{
+    background: #81a4d4;    
+    height: 80px;
+    padding: 40px;
+    text-align: left;
+    width: 95.255%; /* Weird fix to width problem */
+}
+
+header .logo a
+{
+    background-image: url("Images/site_logo.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -25px;
+    width: 150px;
+}
+
+body
+{
+    background-color: #F6F4F6;
+    color: #2E3134;
+    margin: 0;
+}
+
+body header nav ul li
+{
+    list-style: none;
+    position: relative;
+}
+
+body header nav ul li a
+{
+    display: block;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;    /*  Text colour for the header text   */
+    font-size: 25px;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+
+body header nav ul li ul
+{
+    display: none;
+    position: absolute;
+    background-color: #989c97;    /*  Dropdown menu colour  */
+    padding: 5px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 4px 8px 0px #81a4d4;
+    
+}
+
+body header nav ul li:hover ul
+{
+    display: block;
+}
+
+body header nav ul li ul li
+{
+    width: 270px;   /* Width of dropdown */
+    height: 80px;   /* Height of dropdown */
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+body header nav ul li ul li a
+{
+    padding: 20px 7px;
+}
+
+/*  Change colour on hover  */
+body header nav ul li ul li a:hover
+{
+    font-weight: 750;   /* Makes dropdown text bold */
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.bullet ul
+{
+    list-style-type: disc;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav
+{
+    width: 100%;
+    height: 60%;
+}
+
+nav ul
+{
+    z-index: 1;   /*  To keep the mene in the frontal layer   */
+}
+/*  Header Styles  (End) */
+
+/*  Footer Styles   */
+footer
+{
+    background: #1D2027;
+    color: #E2DED0;
+    font-size: 30px;
+    padding: 20px, 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+div.textbox
+{
+    background-color: #478df7;
+    padding: 40px;
+    float: left;
+    margin: 5px 0 0 5px;
+    width: 800px;
+}
+
+div.textbox2
+{
+    background-color: aqua;
+    padding: 40px;
+    float: right;
+    margin: 5px 5px 0 0;
+    width: 700px;
+}
+
+.video
+{
+    background-color: #798597;
+    height: 400px;
+}
