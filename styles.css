@@ -40,7 +40,7 @@ body header nav ul li a
     display: block;    
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;    /*  Text colour for the header text   */
-    font-size: 25px;
+    font-size: 24px;
     padding: 20px 14px;
     text-decoration: none;
 }
@@ -66,7 +66,7 @@ body header nav ul li ul li
     width: 270px;   /* Width of dropdown */
     height: 80px;   /* Height of dropdown */
     border-radius: 4px;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 body header nav ul li ul li a
@@ -95,7 +95,8 @@ ul
 li
 {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 nav
@@ -128,21 +129,124 @@ div.textbox
     background-color: #478df7;
     padding: 40px;
     float: left;
-    margin: 5px 0 0 5px;
-    width: 800px;
+    margin: 20px 0 0 10px;
+    width: 500px;
+    height: 575px;
 }
 
 div.textbox2
 {
-    background-color: aqua;
+    background-color: #478df7;
     padding: 40px;
     float: right;
-    margin: 5px 5px 0 0;
-    width: 700px;
+    margin: 20px 10px 0 0;
+    width: 950px;
+    height: 575px;
 }
 
 .video
 {
     background-color: #798597;
     height: 400px;
+}
+
+/*  Form stuff  */
+
+form
+{
+    padding: 5%;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+
+input[type=text], input[type=url], input[type=email], input[type=date], input[type=number]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #478df7;
+    border-radius: 4px;
+    color: blue;
+    
+}
+
+input[type=text]:focus , input[type=url]:focus, input[type=email]:focus, input[type=date]:focus, input[type=number]:focus
+{
+    background-color: #e0ecfd;
+}
+
+input[type=button], input[type=submit], input[type=reset] 
+{
+    background-color: #478df7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+select
+{
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f3aaae;
+    color: #FFFFFF;
+}
+
+.radiobox
+{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding: 0px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.scroll
+{
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    width: 950px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.scroll2
+{
+    padding: 5px;
+    font: 24px/36px sans-serif;
+    overflow: scroll;
+}
+
+.slidecontainer
+{
+    width: 100%;
+}
+
+.slider
+{
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #397508; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.8; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.slider:hover
+{
+    opacity: 1;
 }
