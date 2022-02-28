@@ -10,10 +10,30 @@
 
         <?php include 'header.php';?>
 
-
-
         <div class="textbox">
-            <h1 align="center ">New Office Properties</h1>
+            <h1 align="center ">New/Existing Office Properties</h1>
+            <form class = "scroll2" action="">
+                <h2>Existing Offices</h2>
+                <div class="inputbox">  <!--    Surname input box    -->
+                    <label for="Sample">Sample</label>
+                    <input type="text" name="sample" id="sample" required title="Please enter the sample">
+                </div>
+
+                <div class="inputbox">  <!--    Surname input box    -->
+                    <label for="Sample">Sample</label>
+                    <input type="text" name="sample" id="sample" required title="Please enter the sample">
+                </div>
+
+                <div class="inputbox">  <!--    Surname input box    -->
+                    <label for="Sample">Sample</label>
+                    <input type="text" name="sample" id="sample" required title="Please enter the sample">
+                </div>
+
+                <div class="inputbox">  <!--    Surname input box    -->
+                    <label for="Sample">Sample</label>
+                    <input type="text" name="sample" id="sample" required title="Please enter the sample">
+                </div>
+            </form>
         </div>
 
         <div class="textbox2">
@@ -64,7 +84,7 @@
 
                 <div class="inputbox">  <!--    Surname input box    -->
                     <label for="Details">Residence Details</label>
-                    <input type="text" name="details" id="Details" required title="Please enter the layout">
+                    <input type="text" name="details" id="Details" required title="Please enter the residence details">
                 </div>
 
                 <div class="inputbox">  <!--    Surname input box    -->

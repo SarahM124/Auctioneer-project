@@ -136,7 +136,7 @@ div.textbox
 
 div.textbox2
 {
-    background-color: aqua;
+    background-color: #478df7;
     padding: 40px;
     float: right;
     margin: 20px 10px 0 0;
@@ -154,7 +154,6 @@ div.textbox2
 
 form
 {
-
     padding: 5%;
     border: 2px solid black;
     border-radius: 4px;
@@ -167,7 +166,7 @@ input[type=text], input[type=url], input[type=email], input[type=date], input[ty
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border-bottom: 2px solid #397508;
+    border-bottom: 2px solid #478df7;
     border-radius: 4px;
     color: blue;
     
@@ -175,12 +174,12 @@ input[type=text], input[type=url], input[type=email], input[type=date], input[ty
 
 input[type=text]:focus , input[type=url]:focus, input[type=email]:focus, input[type=date]:focus, input[type=number]:focus
 {
-    background-color: #58B50D;
+    background-color: #e0ecfd;
 }
 
 input[type=button], input[type=submit], input[type=reset] 
 {
-    background-color: #397508;
+    background-color: #478df7;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -216,11 +215,17 @@ select
 
 .scroll
 {
-    border: none;
     padding: 5px;
     font: 24px/36px sans-serif;
     width: 950px;
     height: 500px;
+    overflow: scroll;
+}
+
+.scroll2
+{
+    padding: 5px;
+    font: 24px/36px sans-serif;
     overflow: scroll;
 }
 

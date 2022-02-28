@@ -11,7 +11,7 @@
         <nav>
             <li>
                 <ul>
-                    <li class="logo"><a href="">Website Logo</a></li>
+                    <li class="logo"><a href="main_page.php">Website Logo</a></li>
                     <li><a href="">Bids</a>
                         <ul>
                             <li><a href="">Make a Bid</a></li>
