@@ -1,10 +1,10 @@
 <?php
 
-$hostname = "";
-$username = "auctioneer";
-$password = "auctioneerPass2022";
+$hostname = "localhost";
+$username = "J";
+$password = "J";
 
-$dbname = "Auctioneer_Database";
+$dbname = "prj";
 
 $con = mysqli_connect($hostname, $username, $password, $dbname);
 
